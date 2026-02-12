@@ -37,29 +37,5 @@ The core of the microprocessor (`processor.v`), responsible for fetching, decodi
 - **Input**: Matrix Keypad interface (`ks.v`) scans user input and provides 4-bit data.
 - **Output**: 7-Segment Display controller (`seg7x8.v`) visualizes 8-bit data (High/Low nibbles) and status.
 
-## Directory Structure
-
-```
-.
-├── src
-│   ├── new/                 # Verilog source files
-│   │   ├── top_processor.v  # Top-level module
-│   │   ├── processor.v      # CPU Core
-│   │   ├── alu.v            # Arithmetic Logic Unit
-│   │   ├── control_block.v  # Control Unit
-│   │   ├── ...              # Other modules (registers, mux, etc.)
-│   └── ip/                  # Vivado IP cores (e.g., dist_mem_gen_0)
-├── testbench/               # Simulation files
-├── images/                  # Documentation images
-└── README.md                # Project documentation
-```
-
-## Getting Started
-1. Open **Xilinx Vivado**.
-2. Create a new project and add the files from `src/new/` and `testbench/`.
-3. Regenerate the IP core (`dist_mem_gen_0`) if necessary using the provided `.xci` file in `src/ip/`.
-4. Run synthesis, implementation, and bitstream generation.
-5. Program your FPGA board.
-
 ## License
 This project is open-source and available under the MIT License.
