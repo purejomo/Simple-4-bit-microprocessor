@@ -38,4 +38,4 @@ The core of the microprocessor (`processor.v`), responsible for fetching, decodi
 - **Output**: 7-Segment Display controller (`seg7x8.v`) visualizes 8-bit data (High/Low nibbles) and status.
 
 ## License
-This project is open-source and available under the MIT License.
+This project is open-source and available under the Github purejomo.
