@@ -37,5 +37,10 @@ The core of the microprocessor (`processor.v`), responsible for fetching, decodi
 - **Input**: Matrix Keypad interface (`ks.v`) scans user input and provides 4-bit data.
 - **Output**: 7-Segment Display controller (`seg7x8.v`) visualizes 8-bit data (High/Low nibbles) and status.
 
+
+## Future Work
+- Add more instructions to the intruction set.
+
+
 ## License
 This project is open-source and available under the Github purejomo.
