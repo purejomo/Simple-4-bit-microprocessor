@@ -39,8 +39,10 @@ The core of the microprocessor (`processor.v`), responsible for fetching, decodi
 
 
 ## Future Work
-- Add more instructions to the intruction set.
+- Add more instructions to the intruction set
+- Add more features to the microprocessor
+- Add more features to the I/O interfaces
 
-
+    
 ## License
 This project is open-source and available under the Github purejomo.
